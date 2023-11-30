@@ -55,27 +55,13 @@ mymoria-api/
 #### Get products by category
   ![get products by category](./sc/get_products_by_category.png)
 
-* postman request for creating new user
-  ![postman request creating user (users.json)](./images/postman_create_user_req.png)
+#### Post (ADD) id to wishlist
+  ![add id to wishlist](./sc/get_from_wishlist.png)
 
-* logger i used morgan lib for this
-  ![logger while creating user (users.json)](./images/logger_post_req_create_user.png)
+#### Get products from wishlist
+  ![get products from wishlist](./sc/get_products_by_category.png)
 
-* after creating new user(users.json)
-  ![after creating user (users.json)](./images/after_post_req_create_user_users_file.png)
 
-### User Vechile preferences - only authenticated user can insert the vechile preferences
-#### create vechile preference
-* Add new vechile preference
-  ![add vechile preference (vechilepreference.json)](./images/add_vechile_preference.png)
-  ![add vechile preference (vechilepreference.json)](./images/add_vechile_prerence_json.png.png)
-
-#### update vechile preference
-  ![update vechile preference (vechilepreference.json)](./images/update_vechile_preference.png)
-  ![update vechile preference (vechilepreference.json)](./images/update_vechile_preference_json.png)
-#### delete vechile preference
-  ![delete vechile preference (vechilepreference.json)](./images/delete_vechile_preference.png)
-  
 
 
 
