@@ -1,0 +1,530 @@
+{
+	"info": {
+		"_postman_id": "20abc40c-ffb4-46b3-b6d5-8d58c25e4d01",
+		"name": "mymoria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11721308"
+	},
+	"item": [
+		{
+			"name": "get by category",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/products/category/?category=flower",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"products",
+						"category",
+						""
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "flower"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get by category coffin",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/products/category/?category=coffin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products",
+								"category",
+								""
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "coffin"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4656"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1230-dFkYLeie06IR776EpBRsZZiynC0\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Nov 2023 04:53:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"bf576392-40a8-4cc2-88d6-bd44908a9aab\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10019_coffin_fullshotfront.jpg\"\n                },\n                {\n                    \"id\": \"605855f1-edda-4223-be48-7ce8d9287687\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10019_coffin_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"a61f1378-3474-4005-87f5-80bbb1479a6e\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10019_coffin_mediumshot_open.jpg\"\n                },\n                {\n                    \"id\": \"3ac79b2c-316f-453a-b318-3769204355ff\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10019_coffin_mediumshottop.jpg\"\n                }\n            ],\n            \"previous\": \"ef395f57-56cb-4cc7-b8e6-a77167d4c261\",\n            \"oldId\": 377,\n            \"rating\": 4,\n            \"createdAt\": 1643301905419,\n            \"funeralType\": [\n                \"burial\"\n            ],\n            \"updatedAt\": 1643301905419,\n            \"category\": \"coffin\",\n            \"funeralPlan\": [\n                \"basic\"\n            ],\n            \"price\": 937.8151,\n            \"id\": \"1db1c8c8-5457-4c50-9cbd-316e33703b62\",\n            \"translations\": {\n                \"name\": \"Zimtbraunfarbener Kiefernsarg mit toller Maserung\",\n                \"description\": \"- Der Sarg besticht durch seine Klarheit und Schlichtheit gepaart mit einer deutlich herausstechenden natürlichen Maserung\\n- Die Kiefer kommt in einem wundervollen Zimtbraunton, was ihm eine besondere Farbwärme verleiht\\n- Passend dazu kommt der Sarg mit bronzierten Griffen aus Altkupfer\\n- Ausgeschlagen wird der Sarg mit einfachem Leinenbezug und passendem weißen Lotband\\n- Hergestellt in Deutschland\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Kiefernsarg \\\"Zimtmond\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"number\": \"0010\",\n                    \"seo_claim\": \"Kiefernsarg »Thuban«\",\n                    \"material\": \"Kiefer\",\n                    \"color\": \"hellbraun\",\n                    \"size\": \"200x67x64cm\",\n                    \"weight\": \"40kg\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"0a5b028c-9e02-44cb-bd39-8485fc5b24e9\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10017_coffin_fullshotfront.jpg\"\n                },\n                {\n                    \"id\": \"5e4146b5-520c-4cc0-8bee-ed139c1d85d4\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10017_coffin_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"2d8dfc27-205f-4f1b-900f-10efb997b657\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10017_coffin_mediumshot_open.jpg\"\n                },\n                {\n                    \"id\": \"9836870f-7a91-4272-b09d-e9af6ccc2018\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10017_coffin_mediumshottop.jpg\"\n                }\n            ],\n            \"previous\": \"515b6a7a-6629-4187-8d86-d694bbc1b1ab\",\n            \"oldId\": 16,\n            \"rating\": 3,\n            \"createdAt\": 1643301905416,\n            \"funeralType\": [\n                \"burial\"\n            ],\n            \"updatedAt\": 1643301905416,\n            \"category\": \"coffin\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 838.6555,\n            \"id\": \"200b8f2d-fa30-41ac-8404-ecf949cb5568\",\n            \"translations\": {\n                \"name\": \"Zimtbraunfarbener Kiefernsarg mit toller Maserung\",\n                \"description\": \"- Der Sarg besticht durch seine Klarheit und Schlichtheit gepaart mit einer deutlich herausgearbeiteten natürlichen Maserung\\n- Die Kiefer erscheint in einem wundervollen Zimtbraunton, was eine besondere Farbwärme verleiht\\n- Passend dazu kommt der Sarg mit bronzierten Griffen aus Altkupfer\\n- Ausgeschlagen wird der Sarg mit einfachem Leinenbezug mit passendem weißen Lotband\\n- Hergestellt in Deutschland\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Kiefernsarg \\\"Kräftige Güte\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"number\": \"0011\",\n                    \"seo_claim\": \"Kiefernsarg »Regulus«\",\n                    \"material\": \"Kiefer\",\n                    \"color\": \"zimtbraun\",\n                    \"size\": \"200x67x64cm\",\n                    \"weight\": \"42kg\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"61f12ec4-a46e-4270-9f30-5328accb46e6\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10002_coffin_fullshotfront.jpg\"\n                },\n                {\n                    \"id\": \"b7000826-34dc-4e9a-ba16-3180f7a042d9\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10002_coffin_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"aa593316-c5fa-41d4-9665-b97d98b171ae\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10002_coffin_mediumshot_open.jpg\"\n                },\n                {\n                    \"id\": \"dee7435b-7cab-485e-a47e-e8ea5045df67\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/10002_coffin_mediumshottop.jpg\"\n                }\n            ],\n            \"previous\": \"49c156c2-5cf8-45b9-89a6-b84b5204096d\",\n            \"oldId\": 1,\n            \"rating\": 4,\n            \"createdAt\": 1643301905367,\n            \"funeralType\": [\n                \"burial\"\n            ],\n            \"updatedAt\": 1643301905367,\n            \"category\": \"coffin\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 1006.7227,\n            \"id\": \"c14cf67c-f916-40bc-8948-5ff6481a5c1c\",\n            \"translations\": {\n                \"name\": \"Natürlich vollendeter  Sarg aus feinster Pappel\",\n                \"description\": \"- Der Pappelsarg besticht durch seine äußerst schlichte Eleganz gepaart mit der Wärme des Bernsteintons\\n- Gefertigt aus hochwertiger Pappel kommt der Sarg in einem zurückhaltend hellen Bernsteinton\\n- Passend dazu kommt der Sarg in gleichfarbig gefrästen Holzgriffen\\n- Ausgeschlagen wird der Sarg mit einer Baumwollbespannung inkl. feiner Spitzenbordüre \\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Pappelsarg \\\"Feine Liebe\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"Made in Germany.jpg\",\n                    \"certificate_2\": \"\",\n                    \"number\": \"0012\",\n                    \"seo_claim\": \"Pappelsarg »Gatria«\",\n                    \"material\": \"Pappel\",\n                    \"color\": \"bernstein\",\n                    \"size\": \"200x69x54cm\",\n                    \"weight\": \"36kg\",\n                    \"amount\": \"\"\n                }\n            }\n        }\n    ]\n}"
+				},
+				{
+					"name": "get by category urn",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/products/category/?category=urn",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products",
+								"category",
+								""
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "urn"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5024"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13a0-Ud9je8dyN9ZnAunv8FGAoJCjBMk\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Nov 2023 04:53:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"3156dc29-14ad-4d63-9153-139ea95deb40\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00001_urn_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"60efa05d-dfee-4cfc-8fb4-a188222ed632\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00001_urn_mediumshot_flowers_open.jpg\"\n                },\n                {\n                    \"id\": \"d895470d-da3d-47e7-9477-0d8c4d228e0e\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00001_urn_mediumshot_flowers.jpg\"\n                }\n            ],\n            \"previous\": \"c537e806-cd8f-4b2f-a129-da4d7a7374c8\",\n            \"oldId\": 276,\n            \"rating\": 3,\n            \"createdAt\": 1643301905804,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905805,\n            \"category\": \"urn\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 350,\n            \"id\": \"0d61e275-c2ca-4080-84b0-40cb86d8c49b\",\n            \"translations\": {\n                \"name\": \"Zeitlose Stahlurne mit grauer Hammerschlag-Optik\",\n                \"description\": \"- Diese klassische Stahlurne hat eine grau lackierte Oberfläche in Hammerschlag-Optik\\n-  Sie ist ein Sinnbild für ehrliche Handwerkskunst in zeitlosem Design\\n- Die schlichte Beschaffenheit dieser Urne strahlt Bescheidenheit und Unscheinbarkeit aus, wodurch sie zu einem wahren Klassiker wird\\n- In Deutschland gefertigt\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Urne \\\"Everlast\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"Made in Germany.jpg\",\n                    \"certificate_2\": \"\",\n                    \"number\": \"0018\",\n                    \"seo_claim\": \"\",\n                    \"material\": \"Stahl\",\n                    \"color\": \"grau\",\n                    \"size\": \"18x18x26cm\",\n                    \"weight\": \"0,9kg\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"d8bd5236-e66d-48b0-84e1-f5c259493551\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00007_urn_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"9d513b32-5968-40c7-944e-36a81b43874c\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00007_urn_mediumshot_flowers_open.jpg\"\n                },\n                {\n                    \"id\": \"bf09df3c-ec63-47fb-878d-f0055ff4f6b1\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00007_urn_mediumshot_flowers.jpg\"\n                }\n            ],\n            \"previous\": \"48690ae6-74b4-4168-b9e2-851ac6f9db41\",\n            \"oldId\": 282,\n            \"rating\": 3,\n            \"createdAt\": 1643301905848,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905848,\n            \"category\": \"urn\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 767.2269,\n            \"id\": \"b3800ac6-2b3e-48b2-aee6-0971177c8c60\",\n            \"translations\": {\n                \"name\": \"Matt schwarze Stahlurne mit goldenem Dekorstreifen\",\n                \"description\": \"- Diese Stahlurne hat eine matt schwarze Oberfläche\\n- Ein umlaufender goldener Dekorstreifen vollendet das Erscheinungsbild dieses Modells\\n- Die schlichte Beschaffenheit und die klassische Kombination aus den Farben Schwarz und Gold sorgen für die vollkommene Eleganz dieser Urne\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Urne \\\"Black Beauty\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"number\": \"0014\",\n                    \"seo_claim\": \"\",\n                    \"material\": \"Stahl\",\n                    \"color\": \"schwarz\",\n                    \"size\": \"19x19x26cm\",\n                    \"weight\": \"0,9kg\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"2c255141-6400-4085-89af-83d62b019f71\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/50086_urn_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"a9f33ace-5eb2-40f4-b6a6-a2da59b07e04\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/50086_urn_stand.jpg\"\n                },\n                {\n                    \"id\": \"00533869-8ab5-44ce-a325-7f390c3ab3b9\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/50086_urn_mediumshot_flowers.jpg\"\n                }\n            ],\n            \"previous\": \"09029c4d-571f-4543-829d-cb7326e82f6a\",\n            \"oldId\": 421,\n            \"rating\": 4,\n            \"createdAt\": 1643301906077,\n            \"funeralType\": [\n                \"sea\"\n            ],\n            \"updatedAt\": 1643301906077,\n            \"category\": \"urn\",\n            \"funeralPlan\": [\n                \"basic\"\n            ],\n            \"price\": 175.6303,\n            \"id\": \"9940d451-5cf8-481c-abdb-8ba8c4c3383f\",\n            \"translations\": {\n                \"name\": \"Blau-silberne Seeurne in Meeroptik\",\n                \"description\": \"- Die Seeurne ist aus einem wasserlöslichen Material\\n- Die raue Oberfläche der Urne, gepaart mit der blau-silbernen Farbe erinnern an die stürmische See\\n- Unsere Naturstoffurnen werden gänzlich aus biologisch abbaubarem Material gefertigt\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Seeurne \\\"Wilde See\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"Made in Germany.jpg\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"number\": \"0020\",\n                    \"material\": \"wasserlöslich (Anhydrit-Tonolith)\",\n                    \"color\": \"blau, silber\",\n                    \"size\": \"21x21x24cm\",\n                    \"weight\": \"0,2kg\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"31a5e830-a726-433b-a5fc-a4641f9e38ab\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00008_urn_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"b8e7f317-e7e1-464b-aaa4-4b4468eaf266\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00008_urn_mediumshot_flowers_open.jpg\"\n                },\n                {\n                    \"id\": \"41e4b7c5-7823-4cae-8fea-ade426fa7189\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00008_urn_mediumshot_flowers.jpg\"\n                }\n            ],\n            \"previous\": \"b166aca6-de95-43f2-ad57-701289b5c1f3\",\n            \"oldId\": 283,\n            \"rating\": 3,\n            \"createdAt\": 1643301905882,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905882,\n            \"category\": \"urn\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 284.0336,\n            \"id\": \"51722886-4497-490a-9b68-87b8182d12d4\",\n            \"translations\": {\n                \"name\": \"Satinierte Cestalurne mit goldfarbener Rose\",\n                \"description\": \"- Diese Cestalurne hat eine satinierte Oberfläche \\n- Die schöne Verzierung mit einer goldfarbenen Rose gibt dieser Urne ihre klassische Note \\n- In Deutschland gefertigt\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Urne \\\"Goldene Rose\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"Made in Germany.jpg\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"number\": \"0021\",\n                    \"material\": \"Cestal\",\n                    \"color\": \"silber, gold\",\n                    \"size\": \"18x18,5x27cm\",\n                    \"weight\": \"0,9kg\",\n                    \"amount\": \"\"\n                }\n            }\n        }\n    ]\n}"
+				},
+				{
+					"name": "get by category flower",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/products/category/?category=flower",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products",
+								"category",
+								""
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "flower"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4395"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"112b-IeQMKu9nnBaKZAmU9QVQqjjnBac\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Nov 2023 04:53:56 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"2dfb059d-db77-44a6-bbee-97075204aa3b\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/Premium_Elegant_Dark.jpg\"\n                },\n                {\n                    \"id\": \"36bfd9e8-3605-486b-adb3-9e8c4eadae4b\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/FS08_015M_a.jpg\"\n                },\n                {\n                    \"id\": \"40179f7d-04aa-411c-9ff0-f9bfa746f8a2\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/W080146M_a.jpg\"\n                }\n            ],\n            \"previous\": \"eb88e80d-c5c5-4300-83b1-ea7c7f33672f\",\n            \"oldId\": 268,\n            \"rating\": 4,\n            \"createdAt\": 1643301905748,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905748,\n            \"category\": \"flower\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 361.3445,\n            \"id\": \"c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5\",\n            \"translations\": {\n                \"name\": \"Klassischer Trauerkranz und Trauergesteck\",\n                \"description\": \"- Diese Zusammenstellung von edler Floristik gibt jeder Trauerfeier einen schönen und eleganten Rahmen \\n- Das Zusammenspiel von roten Rosen und weißen Nelken vermitteln eine elegante Stimmung\\n- Auf Wunsch kann der Kranz auch gerne mit einer personalisierbaren Schleife versehen werden (Details werden nach der Bestellung gemeinsam abgestimmt)\\n- Bitte beachten Sie, dass die Blumenauswahl saisonal und nach regionalen Besonderheiten leicht abweichen kann\",\n                \"locale\": \"de\",\n                \"shortname\": \"Üppiges Urnen-Blumenset in rot und weiß\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"number\": \"0024\",\n                    \"material\": \"Rosen, Nelken\",\n                    \"color\": \"rot, weiß\",\n                    \"size\": \"\",\n                    \"weight\": \"\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"04ad92e9-ff9b-403a-8b5b-82e2470f3e79\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/FB14_006M_a.jpg\"\n                }\n            ],\n            \"previous\": \"f710a7f6-19d5-4210-8876-59a5a4f12d2b\",\n            \"oldId\": 218,\n            \"rating\": 0,\n            \"createdAt\": 1643301905532,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905532,\n            \"category\": \"flower\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 150.0168,\n            \"id\": \"70f94225-0da6-46cc-b02f-25974b8f4ac5\",\n            \"translations\": {\n                \"name\": \"Schönes Blumen-Arrangement in gedecktem rot und grün\",\n                \"description\": \"- Würdigen Sie einen geliebten Menschen mit diesem Strauß als letzten Begleiter\\n- Üblicherweise enthält dieser Trauerstrauß Germini, Dianthus und dekoratives Bindegrün\\n- Bitte beachten Sie, dass die Blumenauswahl saisonal und nach regionalen Besonderheiten leicht abweichen kann\",\n                \"locale\": \"de\",\n                \"shortname\": \"Trauerstrauß in rot\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"material\": \"Germini, Dianthus, Bindegrün\",\n                    \"color\": \"rot, grün\",\n                    \"number\": \"0023\",\n                    \"size\": \"\",\n                    \"weight\": \"\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"94de12bd-160e-422a-8cce-9e33713129e1\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/FB13_013M_a.jpg\"\n                }\n            ],\n            \"previous\": \"c471fc58-44f4-4936-9066-8539f57dc7a9\",\n            \"oldId\": 226,\n            \"rating\": 0,\n            \"createdAt\": 1643301905622,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905622,\n            \"category\": \"flower\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 77.0168,\n            \"id\": \"d232dc79-8c03-44a6-ae33-7fcd2287692a\",\n            \"translations\": {\n                \"name\": \"Wunderschönes Blumen-Arrangement in hellen und warmen Farben\",\n                \"description\": \"- Drücken Sie mit diesem wunderschönen Trauerstrauß Ihre Trauer und Mitgefühl aus \\n- Üblicherweise enthält dieser Strauß Blumen wie Nelken, Chrysanthemen und saisonales Bindegrün \\n- Bitte beachten Sie, dass die Blumenauswahl saisonal und nach regionalen Besonderheiten leicht abweichen kann\",\n                \"locale\": \"de\",\n                \"shortname\": \"Klassischer Trauerstrauß\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"number\": \"1124\",\n                    \"material\": \"Nelken, Chrysanthemen, Bindegrün\",\n                    \"color\": \"diverse\",\n                    \"size\": \"\",\n                    \"weight\": \"\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"431a0eb6-74f4-4bdb-a85c-9dce17ab6047\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/FB13_025M_a.jpg\"\n                }\n            ],\n            \"previous\": \"7fe7ef3b-aaf9-4801-b592-2d371adc1c32\",\n            \"oldId\": 222,\n            \"rating\": 0,\n            \"createdAt\": 1643301905607,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905607,\n            \"category\": \"flower\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 99.0168,\n            \"id\": \"89294faf-f7f8-4f9b-be2d-37a5cbad1f7c\",\n            \"translations\": {\n                \"name\": \"Eleganter Trauerstrauß mit Rosen in hellen Farben\",\n                \"description\": \"- Nehmen Sie Abschied von einem geliebten Menschen mit diesem wunderschönen und klassischem Trauerstrauß\\n- Dieser Strauß enthält üblicherweise rosafarbene Rosen und saisonales Bindegrün\\n- Bitte beachten Sie, dass die Blumenauswahl saisonal und nach regionalen Besonderheiten leicht abweichen kann\",\n                \"locale\": \"de\",\n                \"shortname\": \"Trauerstrauß mit rosa Rosen\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"number\": \"1123\",\n                    \"material\": \"Rosen, Bindegrün\",\n                    \"color\": \"rosa, grün\",\n                    \"amount\": \"\"\n                }\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "add item to wishlist",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/wishlist?id=0d61e275-c2ca-4080-84b0-40cb86d8c49b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"wishlist"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "0d61e275-c2ca-4080-84b0-40cb86d8c49b"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "wishlist item added ex",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/wishlist?id=c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"wishlist"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "66"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"42-d32QJUIpmFZQNXqtoONneFVjtr0\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Nov 2023 05:43:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": \"c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5\"\n}"
+				},
+				{
+					"name": "wishlits item added urn",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/wishlist?id=0d61e275-c2ca-4080-84b0-40cb86d8c49b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"wishlist"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "0d61e275-c2ca-4080-84b0-40cb86d8c49b"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "66"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"42-v3Mm7IxxUETdBFZfdd+hN++z0tk\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Nov 2023 05:44:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": \"0d61e275-c2ca-4080-84b0-40cb86d8c49b\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get products from  wishlist",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/wishlist",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"wishlist"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get all products form wishlist",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxIiwiaWF0IjoxNzAwODE5NDA4LCJleHAiOjE3MDA4MjAzMDh9.RlQyHJ_ANHudcd4Z7vibNrhC_O4bOeAx64J9E0jZsOw",
+								"type": "default"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/wishlist",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"wishlist"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2714"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a9a-qqxunUHQsRqbBv0QsdHXAdKR11k\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 29 Nov 2023 05:46:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"success\",\n    \"data\": [\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"2dfb059d-db77-44a6-bbee-97075204aa3b\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/Premium_Elegant_Dark.jpg\"\n                },\n                {\n                    \"id\": \"36bfd9e8-3605-486b-adb3-9e8c4eadae4b\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/FS08_015M_a.jpg\"\n                },\n                {\n                    \"id\": \"40179f7d-04aa-411c-9ff0-f9bfa746f8a2\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR_PATH/W080146M_a.jpg\"\n                }\n            ],\n            \"previous\": \"eb88e80d-c5c5-4300-83b1-ea7c7f33672f\",\n            \"oldId\": 268,\n            \"rating\": 4,\n            \"createdAt\": 1643301905748,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905748,\n            \"category\": \"flower\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 361.3445,\n            \"id\": \"c0dfd1e6-90e4-4202-b299-fd5e9aebf0f5\",\n            \"translations\": {\n                \"name\": \"Klassischer Trauerkranz und Trauergesteck\",\n                \"description\": \"- Diese Zusammenstellung von edler Floristik gibt jeder Trauerfeier einen schönen und eleganten Rahmen \\n- Das Zusammenspiel von roten Rosen und weißen Nelken vermitteln eine elegante Stimmung\\n- Auf Wunsch kann der Kranz auch gerne mit einer personalisierbaren Schleife versehen werden (Details werden nach der Bestellung gemeinsam abgestimmt)\\n- Bitte beachten Sie, dass die Blumenauswahl saisonal und nach regionalen Besonderheiten leicht abweichen kann\",\n                \"locale\": \"de\",\n                \"shortname\": \"Üppiges Urnen-Blumenset in rot und weiß\",\n                \"properties\": {\n                    \"certificate_1\": \"\",\n                    \"certificate_2\": \"\",\n                    \"seo_claim\": \"\",\n                    \"number\": \"0024\",\n                    \"material\": \"Rosen, Nelken\",\n                    \"color\": \"rot, weiß\",\n                    \"size\": \"\",\n                    \"weight\": \"\",\n                    \"amount\": \"\"\n                }\n            }\n        },\n        {\n            \"pictures\": [\n                {\n                    \"id\": \"3156dc29-14ad-4d63-9153-139ea95deb40\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00001_urn_fullshot.jpg\"\n                },\n                {\n                    \"id\": \"60efa05d-dfee-4cfc-8fb4-a188222ed632\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00001_urn_mediumshot_flowers_open.jpg\"\n                },\n                {\n                    \"id\": \"d895470d-da3d-47e7-9477-0d8c4d228e0e\",\n                    \"url\": \"REPLACE_WITH_YOUR_ASSETS_DIR/00001_urn_mediumshot_flowers.jpg\"\n                }\n            ],\n            \"previous\": \"c537e806-cd8f-4b2f-a129-da4d7a7374c8\",\n            \"oldId\": 276,\n            \"rating\": 3,\n            \"createdAt\": 1643301905804,\n            \"funeralType\": [\n                \"cremation\"\n            ],\n            \"updatedAt\": 1643301905805,\n            \"category\": \"urn\",\n            \"funeralPlan\": [\n                \"simple\"\n            ],\n            \"price\": 350,\n            \"id\": \"0d61e275-c2ca-4080-84b0-40cb86d8c49b\",\n            \"translations\": {\n                \"name\": \"Zeitlose Stahlurne mit grauer Hammerschlag-Optik\",\n                \"description\": \"- Diese klassische Stahlurne hat eine grau lackierte Oberfläche in Hammerschlag-Optik\\n-  Sie ist ein Sinnbild für ehrliche Handwerkskunst in zeitlosem Design\\n- Die schlichte Beschaffenheit dieser Urne strahlt Bescheidenheit und Unscheinbarkeit aus, wodurch sie zu einem wahren Klassiker wird\\n- In Deutschland gefertigt\\n- Die abgebildeten Blumen sind nicht Teil des Angebots\",\n                \"locale\": \"de\",\n                \"shortname\": \"Urne \\\"Everlast\\\"\",\n                \"properties\": {\n                    \"certificate_1\": \"Made in Germany.jpg\",\n                    \"certificate_2\": \"\",\n                    \"number\": \"0018\",\n                    \"seo_claim\": \"\",\n                    \"material\": \"Stahl\",\n                    \"color\": \"grau\",\n                    \"size\": \"18x18x26cm\",\n                    \"weight\": \"0,9kg\",\n                    \"amount\": \"\"\n                }\n            }\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
