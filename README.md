@@ -5,7 +5,8 @@ Coding challenge mymoria backend
 * Created all 3 endpoints
   
 ### what i didn't did
-* I haven't done any bonus
+
+* I did't done any bonus becuase I was focusing on main task and started the task late. But i know basic authentication(using jwt), creating docs using apidoc and adding one more endpoint to delete wishlistid
   
 ### Postman
 * i used postman for making request so i saved all my request with examples and added here in this project as mymoria. It is post man collection json file.
