@@ -1,16 +1,4 @@
-# mymoria_api
-Coding challenge mymoria backend
-
-### what i did (everthing with screenshot explained in this readmefile)
-* Created all 3 endpoints
-  
-### what i didn't did
-
-* I did't done any bonus becuase I was focusing on main task and started the task late. But i know basic authentication(using jwt), creating docs using apidoc and adding one more endpoint to delete wishlistid
-  
-### Postman
-* i used postman for making request so i saved all my request with examples and added here in this project as mymoria. It is post man collection json file.
-
+# Sample API to do CRUD operations based on categories 
 ## I used Node.js, TypeScript, Express, RoutingControllers, ClassValidators 
 
 ### Setup
@@ -51,6 +39,9 @@ mymoria-api/
 |-- README.md
 |-- tsconfig.json
 ```
+
+### Postman
+* I used postman for making request so i saved all my request with examples and added here in this project as mymoria. It is post man collection json file.
 
 ### 3 Endpoints request screenshots
 #### Get products by category
